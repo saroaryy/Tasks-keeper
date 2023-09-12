@@ -1,0 +1,82 @@
+html{
+    box-sizing: content-box;
+}
+*:before,*:after{
+    box-sizing: inherit;
+}
+
+.input{
+    width: 400px;
+    height: 60px;
+    background-color: rgb(219, 209, 209);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.input input{
+    height: 30px;
+    width: 280px;
+    border: none;
+    border-radius: 5px;
+}
+.input button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: double;
+    border-color: darkorange;
+    background-color: rgb(228, 149, 112);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.input button:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+#displayDiv{
+    margin-top: 20px;
+    background-color: rgb(219, 209, 209);
+    min-height: 50px;
+    width: 390px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.valueDiv{
+    border-radius: 5px;
+    background-color: white;
+    width: 360px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.valueDiv button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: double;
+    border-color: rgb(235, 92, 36);
+    background-color: rgb(126, 28, 3);
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: -50px;
+}
+
+.valueDiv button:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+
